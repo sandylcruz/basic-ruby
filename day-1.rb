@@ -1,38 +1,44 @@
-# def add(x, y)
-#   x + y
-# end
-#
-# puts "ADD TESTS"
-# puts add(1, 2) == 3
-# puts add(2, 3) == 5
-# puts add(3, 4) == 7
-#
-# def concat(x, y)
-#   "catdog"
-#   x + y
-# end
-#
-# puts "CONCAT TESTS"
-# puts add("cat", "dog") == "catdog"
-# puts add("dog", "cat") == "dogcat"
-# puts add("callie", "squeaky") == "calliesqueaky"
-#
+def add(x, y)
+  x + y
+end
 
-# use .times and add (written above)
+puts "ADD TESTS"
+puts add(1, 2) == 3
+puts add(2, 3) == 5
+puts add(3, 4) == 7
+
+def concat(x, y)
+  "catdog"
+  x + y
+end
+
+puts "CONCAT TESTS"
+puts add("cat", "dog") == "catdog"
+puts add("dog", "cat") == "dogcat"
+puts add("callie", "squeaky") == "calliesqueaky"
+
+
+use .times and add (written above)
 def multiply(x, y)
-  x * y
+  sum = 0
+  x.times do
+    puts "About to add #{y} to #{sum}"
+    sum = sum + y
   end
-
-  variable
+  sum
 end
 
 puts "MULTIPLY TESTS"
-puts multiply(1,1) == 1
+puts multiply(2, 3)
+puts multiply(1, 1) == 1
 puts multiply(1, 2) == 2
 puts multiply(2, 3) == 6
 puts multiply(3, 4) == 12
-#
-# # use only .times and multiply (written above)
+
+
+
+# use only .times and multiply (written above)
+
 # def power(x, y)
 # end
 #
