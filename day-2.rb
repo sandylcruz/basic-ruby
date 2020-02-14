@@ -1,4 +1,4 @@
-basic loops
+#basic loops
 
 x = gets.chomp.to_i
 
@@ -18,3 +18,10 @@ else
 end
 
 3.times {puts "squeaky"}
+
+n = 0
+
+while n<10
+  puts n
+   n+=1
+  end
