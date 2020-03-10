@@ -1,24 +1,28 @@
+#basic methods
+
 def add(x, y)
   x + y
 end
 
-puts "ADD TESTS"
-puts add(1, 2) == 3
-puts add(2, 3) == 5
-puts add(3, 4) == 7
+def adding
+  puts "ADD TESTS"
+  puts add(1, 2) == 3
+  puts add(2, 3) == 5
+  puts add(3, 4) == 7
+end
 
 def concat(x, y)
   "catdog"
   x + y
 end
 
-puts "CONCAT TESTS"
-puts add("cat", "dog") == "catdog"
-puts add("dog", "cat") == "dogcat"
-puts add("callie", "squeaky") == "calliesqueaky"
+def concat_tests
+  puts "CONCAT TESTS"
+  puts add("cat", "dog") == "catdog"
+  puts add("dog", "cat") == "dogcat"
+  puts add("callie", "squeaky") == "calliesqueaky"
+  end
 
-
-use .times and add (written above)
 def multiply(x, y)
   sum = 0
   x.times do
@@ -28,13 +32,14 @@ def multiply(x, y)
   sum
 end
 
-puts "MULTIPLY TESTS"
-puts multiply(2, 3)
-puts multiply(1, 1) == 1
-puts multiply(1, 2) == 2
-puts multiply(2, 3) == 6
-puts multiply(3, 4) == 12
-
+def multiplication
+  puts "MULTIPLY TESTS"
+  puts multiply(2, 3)
+  puts multiply(1, 1) == 1
+  puts multiply(1, 2) == 2
+  puts multiply(2, 3) == 6
+  puts multiply(3, 4) == 12
+end
 
 
 # use only .times and multiply (written above)
