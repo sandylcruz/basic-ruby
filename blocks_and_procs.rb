@@ -88,3 +88,15 @@
 # end
 #
 # my_block { |parameter| puts "parameter is #{parameter}"}
+
+# factor = proc {|n| print n * 2}
+#
+# [3, 2, 1].each(&factor)
+
+def my_each(&block)
+  self.length.times do |i|
+    block.call(self[i])
+  end
+end
+
+[1,2,3].my_each {|i| puts i * 2}

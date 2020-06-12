@@ -1,27 +1,27 @@
-# def reverse(array)
-#   array = [1, 2, 3, 4, 5]
-#
-# while i <
-#
-#
-#   array
-#
-# end
-#
-# .unshift
-# puts reverse([1, 2, 3, 4, 5]) == [5, 4, 3, 2, 1]
+def reverse(array)
+  array = [1, 2, 3, 4, 5]
 
-# def greeting(name)
-#   "Hi #{name} how are you doing?"
-# end
-#
-# puts greeting("Callie")
+while i <
 
-# def multiply(number1, number2)
-#   number1 * number2
-# end
-#
-# puts multiply(4, 2)
+
+  array
+
+end
+
+.unshift
+puts reverse([1, 2, 3, 4, 5]) == [5, 4, 3, 2, 1]
+
+def greeting(name)
+  "Hi #{name} how are you doing?"
+end
+
+puts greeting("Callie")
+
+def multiply(number1, number2)
+  number1 * number2
+end
+
+puts multiply(4, 2)
 
 puts "Put in a number"
 a = gets.chomp.to_i

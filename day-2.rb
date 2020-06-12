@@ -1,35 +1,37 @@
-#basic loops
+# frozen_string_literal: true
 
-def countdown(x)
-  until x < 0
+# basic loops
+
+def countdown(num)
+  until x < num
     puts x
     x -= 1
   end
-  puts "Done!"
+  puts 'Done!'
 end
 
 puts countdown(9)
 
-def stock_check(n)
-  stock = n
-  if stock <1
+def stock_check(num)
+  stock = num
+  if stock < 1
     puts "Sorry we're out of stock"
   else
-    puts "Thanks for your order"
+    puts 'Thanks for your order'
   end
 end
 
 stock_check(0)
 
-def squeaky(x)
-  x.times do
-    puts "squeaky"
+def squeaky(num)
+  num.times do
+    puts 'squeaky'
   end
 end
 squeaky(5)
 
-def count_to_ten(n)
-  while n<10
+def count_to_ten(num)
+  while num < 10
     puts n
     n += 1
   end
