@@ -33,17 +33,27 @@ class MyCar
     "We have changed the color of our car to #{@color}"
   end
 
+  def print_out
+    "This car is a #{year} #{@model} #{color} "
+  end
+
+  def gas_mileage(number)
+    "The gas mileage is #{number} miles per gallon"
+  end
+
 end
 puts lumina = MyCar.new(1997, 'chevy lumina', 'white')
-puts lumina.speed_up(20)
-puts lumina.current_speed
-puts lumina.speed_up(20)
-puts lumina.current_speed
-puts lumina.brake(20)
-puts lumina.current_speed
-puts lumina.brake(20)
-puts lumina.current_speed
-puts lumina.shut_down
-puts lumina.current_speed
-puts lumina.spray_paint('red')
-puts lumina
+# puts lumina.speed_up(20)
+# puts lumina.current_speed
+# puts lumina.speed_up(20)
+# puts lumina.current_speed
+# puts lumina.brake(20)
+# puts lumina.current_speed
+# puts lumina.brake(20)
+# puts lumina.current_speed
+# puts lumina.shut_down
+# puts lumina.current_speed
+# puts lumina.spray_paint('red')
+# puts lumina
+puts lumina.print_out
+puts lumina.gas_mileage(20)
