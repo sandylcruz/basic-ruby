@@ -1,4 +1,6 @@
 class MyCar
+  attr_accessor :color
+  attr_reader :year
 
   def initialize(year, color, model)
     @year = year
@@ -26,6 +28,11 @@ class MyCar
     "We have shut off the car. We are going 0 miles per hour."
   end
 
+  def spray_paint(color)
+    @color = color
+    "We have changed the color of our car to #{@color}"
+  end
+
 end
 puts lumina = MyCar.new(1997, 'chevy lumina', 'white')
 puts lumina.speed_up(20)
@@ -38,3 +45,5 @@ puts lumina.brake(20)
 puts lumina.current_speed
 puts lumina.shut_down
 puts lumina.current_speed
+puts lumina.spray_paint('red')
+puts lumina
